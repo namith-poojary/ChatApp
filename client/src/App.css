@@ -1,0 +1,128 @@
+
+/* App container */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Login container */
+.login-container {
+  text-align: center;
+}
+
+/* Chat container */
+.chat-container {
+  display: flex;
+  align-items: flex-start;
+  width: 800px;
+  height: 500px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Chat rooms */
+.chat-rooms {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.chat-rooms h2 {
+  margin: 0;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+.chat-rooms ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.chat-rooms li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-rooms li:hover {
+  background-color: #eaeaea;
+}
+
+.unread-count {
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* Chat room */
+.chat-room {
+  flex: 2;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.chat-room h2 {
+  margin: 0;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+.messages {
+  height: 400px;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message .username {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.message .content {
+  word-wrap: break-word;
+}
+
+.message-input {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.message-input input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.message-input button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.message-input button:hover {
+  background-color: #0056b3;
+}
+
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
